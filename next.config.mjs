@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  async rewrites() {
+    return [
+      {
+        source: '/privacy-policy.html',
+        destination: '/privacy-policy',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
