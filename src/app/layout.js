@@ -7,8 +7,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Privacy Policy | Kegal360",
-  description: "Public privacy policy for Kegal360 users.",
+  title: "Privacy Policy | Kegel 360",
+  description: "Public privacy policy for Kegel 360 users.",
 };
 
 export default function RootLayout({ children }) {
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${inter.variable} h-full antialiased`}
     >
-        <body className="min-h-full flex flex-col font-sans select-none selection:bg-neutral-900 selection:text-white">
+      <body className="min-h-full flex flex-col font-sans select-none selection:bg-neutral-900 selection:text-white">
         {children}
       </body>
     </html>
