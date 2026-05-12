@@ -42,9 +42,8 @@ export default function Home() {
               K E G E L 3 6 0
             </a>
           </h2>
-          <p className="text-[#6c6c6c] text-[15px] md:text-[16px] leading-[24px] italic">
-            Stop wasting time and money designing and managing a website or
-            application that doesn't get results. Happiness guaranteed!
+          <p className="text-[#6c6c6c] text-[15px] md:text-[16px] leading-[24px] max-w-[800px] mx-auto italic">
+            Need help with your period tracker or cycle yoga? Reach out to the Kegel 360 support team for quick assistance. Satisfaction guaranteed!
           </p>
         </div>
 
